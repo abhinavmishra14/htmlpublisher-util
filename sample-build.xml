@@ -1,0 +1,14 @@
+<project name="htmlpublisher sample build" basedir="." default="about">
+	<target name="about">
+	   <echo>This is a sample build!</echo>
+	</target>
+	<target name="build-htmldocs">
+		<echo>******Publishing xquery docs******</echo>
+		<java classname="com.abhinav.html.publisher.HTMLPublisher">
+			<arg value="${basedir}/htmldocs" />
+			<classpath>
+				<pathelement location="${basedir}\jar\htmlpublisher.jar" />
+			</classpath>
+		</java>
+	</target>
+</project>

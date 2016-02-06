@@ -1,2 +1,3 @@
 # htmlpublisher-util
-This simple library can be used to create a TOC (index.html) for multiple html files available in file-system. 
+This very simple library can be used to create a TOC (index.html) for multiple html files available in file-system. 
+Use ant sample to see how it works.
